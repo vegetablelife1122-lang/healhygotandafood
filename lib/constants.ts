@@ -1,6 +1,6 @@
 import type { Area, VisitType, Genre, Drink } from "./types";
 
-export const AREAS: Area[] = ["西五反田", "東五反田"];
+export const AREAS: Area[] = ["西五反田", "東五反田", "大崎"];
 
 export const VISIT_TYPES: VisitType[] = ["ランチ", "ディナー", "軽く飲む", "お酒メイン"];
 
