@@ -31,7 +31,7 @@ export type Drink =
   | "シェリー酒"
   | "マッコリ";
 
-export type HealthTag = "野菜多め" | "高たんぱく" | "揚げ物少なめ" | "軽め" | "低カロリー" | "魚介系" | "発酵食品";
+export type HealthTag = "野菜多め" | "高たんぱく" | "揚げ物少なめ" | "揚げ物あり" | "軽め" | "低カロリー" | "魚介系" | "発酵食品" | "肉料理充実" | "こだわり食材";
 
 export interface Restaurant {
   id: string;
