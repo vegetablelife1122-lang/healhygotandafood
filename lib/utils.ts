@@ -34,17 +34,21 @@ export function getPeakHourWarnings(restaurant: Restaurant): string[] {
   const hasDinner = restaurant.visitTypes.includes("ディナー");
   const hasDrink = restaurant.visitTypes.includes("軽く飲む") || restaurant.visitTypes.includes("お酒メイン");
   const { genre, walkingMinutes } = restaurant;
+  const nearStation = walkingMinutes <= 3;
 
-  // ランチ混雑：駅近 × ランチ対応の人気ジャンル
-  const lunchCrowdedGenres = ["ラーメン", "和食", "イタリアン", "カフェ", "洋食", "中華"];
-  if (hasLunch && lunchCrowdedGenres.includes(genre)) {
-    const label = walkingMinutes <= 3 ? "ランチ 12〜13時は特に混雑" : "ランチ 12〜13時混雑";
-    warnings.push(label);
+  // ランチのみ混雑（夜は比較的空いてる）
+  if (hasLunch && ["ラーメン", "カフェ"].includes(genre)) {
+    warnings.push(nearStation ? "ランチ 12〜13時は特に混雑" : "ランチ 12〜13時混雑");
   }
 
-  // ディナー混雑：焼肉・居酒屋・イタリアンは予約推奨
-  const dinnerCrowdedGenres = ["焼肉", "居酒屋", "イタリアン"];
-  if ((hasDinner || hasDrink) && dinnerCrowdedGenres.includes(genre)) {
+  // ランチ＋ディナー両方混雑
+  if (["和食", "イタリアン", "中華", "洋食"].includes(genre)) {
+    if (hasLunch) warnings.push(nearStation ? "ランチ 12〜13時は特に混雑" : "ランチ 12〜13時混雑");
+    if (hasDinner || hasDrink) warnings.push("ディナー 19〜20時混雑");
+  }
+
+  // ディナーのみ混雑
+  if (["焼肉", "居酒屋"].includes(genre) && (hasDinner || hasDrink)) {
     warnings.push("ディナー 19〜21時混雑");
   }
 
