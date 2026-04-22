@@ -108,16 +108,21 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
           {restaurant.healthTags.map((tag) => (
             <span
               key={tag}
-              className={`px-2 py-0.5 text-xs rounded-full font-medium ${HEALTH_TAG_COLORS[tag] ?? "bg-gray-100 text-gray-600"}`}
+              className={`px-1.5 py-0.5 text-xs rounded-full font-medium ${HEALTH_TAG_COLORS[tag] ?? "bg-gray-100 text-gray-600"}`}
             >
               {tag}
             </span>
           ))}
-          {restaurant.drinkPairings.map((d) => (
-            <span key={d} className="px-2 py-0.5 bg-slate-100 text-slate-500 text-xs rounded-full">
-              {d}
-            </span>
-          ))}
+          {restaurant.drinkPairings.length > 0 && (
+            <>
+              <span className="text-xs text-gray-400 self-center">お酒：</span>
+              {restaurant.drinkPairings.map((d) => (
+                <span key={d} className="px-1.5 py-0.5 bg-slate-100 text-slate-500 text-xs rounded-full">
+                  {d}
+                </span>
+              ))}
+            </>
+          )}
         </div>
       )}
 
@@ -152,23 +157,23 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         </div>
       )}
 
-      {/* Tabelog link + Reason — stacked but tight */}
-      <div className="flex items-center gap-2 flex-wrap">
-        {restaurant.tabelogUrl && (
-          <a
-            href={restaurant.tabelogUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1 px-2.5 py-1 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-100 transition-colors"
-          >
-            🍽️ 食べログ →
-          </a>
-        )}
-        <div className="flex-1 min-w-0 bg-green-50 rounded-lg px-2.5 py-1.5 border border-green-100">
-          <span className="text-xs text-gray-500">理由： </span>
-          <span className="text-xs text-green-800 font-medium">{reason}</span>
-        </div>
+      {/* Reason */}
+      <div className="bg-green-50 rounded-lg px-2.5 py-1.5 border border-green-100 mb-1.5">
+        <span className="text-xs text-gray-400">理由： </span>
+        <span className="text-xs text-green-800 font-medium line-clamp-2">{reason}</span>
       </div>
+
+      {/* Tabelog link */}
+      {restaurant.tabelogUrl && (
+        <a
+          href={restaurant.tabelogUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 px-2.5 py-1 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-100 transition-colors"
+        >
+          🍽️ 食べログで見る →
+        </a>
+      )}
     </div>
   );
 }
