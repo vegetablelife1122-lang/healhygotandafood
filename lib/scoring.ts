@@ -1,10 +1,11 @@
 import type { Restaurant, Filters, RankedRestaurant } from "./types";
 import { SCORE_WEIGHTS, MAX_RESULTS, MIN_RESULTS, CALORIE_RELAX_MARGIN } from "./constants";
+import { normalizeForSearch } from "./utils";
 
 function scoreRestaurant(restaurant: Restaurant, filters: Filters, relaxCalories: boolean): number {
   let score = 0;
 
-  if (filters.name && restaurant.name.includes(filters.name)) {
+  if (filters.name && normalizeForSearch(restaurant.name).includes(normalizeForSearch(filters.name))) {
     score += SCORE_WEIGHTS.NAME_MATCH;
   }
 

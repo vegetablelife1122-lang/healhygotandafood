@@ -1,5 +1,13 @@
 import type { RankedRestaurant } from "./types";
 
+// ひらがな・カタカナ・大小英字を統一してあいまい検索を可能にする
+export function normalizeForSearch(text: string): string {
+  return text
+    .toLowerCase()
+    // カタカナ → ひらがな
+    .replace(/[\u30A1-\u30F6]/g, (ch) => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+}
+
 export function pickRandom<T>(items: T[]): T {
   return items[Math.floor(Math.random() * items.length)];
 }
