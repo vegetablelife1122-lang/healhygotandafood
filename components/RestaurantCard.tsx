@@ -32,29 +32,28 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
 
   return (
     <div
-      className={`bg-white rounded-2xl shadow-md p-5 border-2 transition-all ${
+      className={`bg-white rounded-2xl shadow-md p-4 border-2 transition-all ${
         isSelected ? "border-green-500 ring-2 ring-green-200" : isFavorite ? "border-yellow-400 ring-2 ring-yellow-100" : "border-transparent"
       }`}
     >
       {/* Rank badge + name + heart */}
-      <div className="flex items-start gap-3 mb-3">
-        <span className="flex-shrink-0 w-8 h-8 rounded-full bg-emerald-800 text-white flex items-center justify-center text-sm font-bold shadow">
+      <div className="flex items-start gap-2 mb-2">
+        <span className="flex-shrink-0 w-7 h-7 rounded-full bg-emerald-800 text-white flex items-center justify-center text-xs font-bold shadow">
           {rank}
         </span>
         <div className="flex-1 min-w-0">
-          <h3 className="text-lg font-bold text-gray-800 leading-tight">{restaurant.name}</h3>
+          <h3 className="text-base font-bold text-gray-800 leading-tight">{restaurant.name}</h3>
           {isRelaxed && (
-            <span className="inline-block mt-1 px-2 py-0.5 bg-orange-100 text-orange-600 text-xs rounded-full">
+            <span className="inline-block mt-0.5 px-2 py-0.5 bg-orange-100 text-orange-600 text-xs rounded-full">
               カロリー条件を少し緩めた候補
             </span>
           )}
         </div>
-        {/* お気に入りボタン */}
         {onToggleFavorite && (
           <button
             type="button"
             onClick={() => onToggleFavorite(restaurant.id)}
-            className="flex-shrink-0 text-2xl leading-none transition-transform hover:scale-125 active:scale-110"
+            className="flex-shrink-0 text-xl leading-none transition-transform hover:scale-125 active:scale-110"
             aria-label={isFavorite ? "お気に入りを解除" : "お気に入りに追加"}
           >
             {isFavorite ? "🌟" : "☆"}
@@ -62,8 +61,8 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         )}
       </div>
 
-      {/* Area + Genre badges */}
-      <div className="flex flex-wrap gap-2 mb-3">
+      {/* Area + Genre + Walking + Visit types — all in one row */}
+      <div className="flex flex-wrap gap-1.5 mb-2">
         <span className="px-2 py-0.5 bg-gray-100 text-gray-600 text-xs rounded-full font-medium">
           {restaurant.area}
         </span>
@@ -73,10 +72,6 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         <span className="px-2 py-0.5 bg-gray-50 text-gray-500 text-xs rounded-full">
           徒歩 {restaurant.walkingMinutes}分
         </span>
-      </div>
-
-      {/* Visit types */}
-      <div className="flex flex-wrap gap-1 mb-3">
         {restaurant.visitTypes.map((vt) => (
           <span
             key={vt}
@@ -87,32 +82,29 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         ))}
       </div>
 
-      {/* Budget and Calories */}
-      <div className="flex flex-wrap gap-4 mb-3 text-sm">
-        <div>
-          <span className="text-gray-500 text-xs">予算</span>
+      {/* Budget + Calories + Health score — compact inline */}
+      <div className="flex flex-wrap gap-x-3 gap-y-0.5 mb-2 text-xs">
+        <span>
+          <span className="text-gray-400">予算 </span>
           {restaurant.budgetLunch ? (
-            <div className="font-semibold text-gray-800 text-xs leading-5">
-              <span className="text-gray-400">ランチ </span>{restaurant.budgetLunch}<br />
-              <span className="text-gray-400">夜 &nbsp;&nbsp;&nbsp;&nbsp;</span>{restaurant.budget}
-            </div>
+            <span className="text-gray-700 font-medium">ランチ {restaurant.budgetLunch} / 夜 {restaurant.budget}</span>
           ) : (
-            <p className="font-semibold text-gray-800">{restaurant.budget}</p>
+            <span className="text-gray-700 font-medium">{restaurant.budget}</span>
           )}
-        </div>
-        <div>
-          <span className="text-gray-500 text-xs">カロリー目安</span>
-          <p className="font-semibold text-gray-800">{formatCalories(restaurant.estimatedCalories)}</p>
-        </div>
-        <div>
-          <span className="text-gray-500 text-xs">健康スコア</span>
-          <p className="font-semibold text-yellow-500 text-sm">{healthScoreLabel(restaurant.healthScore)}</p>
-        </div>
+        </span>
+        <span>
+          <span className="text-gray-400">カロリー </span>
+          <span className="text-gray-700 font-medium">{formatCalories(restaurant.estimatedCalories)}</span>
+        </span>
+        <span>
+          <span className="text-gray-400">健康 </span>
+          <span className="text-yellow-500 font-medium">{healthScoreLabel(restaurant.healthScore)}</span>
+        </span>
       </div>
 
-      {/* Health tags */}
-      {restaurant.healthTags.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
+      {/* Health tags + Drink pairings — merged row */}
+      {(restaurant.healthTags.length > 0 || restaurant.drinkPairings.length > 0) && (
+        <div className="flex flex-wrap gap-1 mb-2">
           {restaurant.healthTags.map((tag) => (
             <span
               key={tag}
@@ -121,68 +113,61 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
               {tag}
             </span>
           ))}
-        </div>
-      )}
-
-      {/* Drink pairings */}
-      {restaurant.drinkPairings.length > 0 && (
-        <div className="mb-3">
-          <span className="text-xs text-gray-500 mr-1">お酒：</span>
           {restaurant.drinkPairings.map((d) => (
-            <span key={d} className="inline-block mr-1 px-2 py-0.5 bg-slate-100 text-slate-600 text-xs rounded-full">
+            <span key={d} className="px-2 py-0.5 bg-slate-100 text-slate-500 text-xs rounded-full">
               {d}
             </span>
           ))}
         </div>
       )}
 
-      {/* Description */}
-      <p className="text-sm text-gray-600 mb-3 leading-relaxed">{restaurant.description}</p>
+      {/* Description — 2 line clamp */}
+      <p className="text-xs text-gray-600 mb-2 leading-relaxed line-clamp-2">{restaurant.description}</p>
 
       {/* Photo */}
       {restaurant.imageUrl && (
-        <div className="mb-3 rounded-xl overflow-hidden">
+        <div className="mb-2 rounded-xl overflow-hidden">
           <img
             src={restaurant.imageUrl}
             alt={`${restaurant.name}の写真`}
-            className="w-full h-40 object-cover"
+            className="w-full h-32 object-cover"
           />
         </div>
       )}
 
-      {/* Peak hour warnings */}
+      {/* Address + Hours */}
+      <div className="mb-2 text-xs text-gray-500 space-y-0.5">
+        <p>📍 {restaurant.address}</p>
+        <p>🕐 {restaurant.openingHours}</p>
+      </div>
+
+      {/* Peak hour warnings — below hours */}
       {peakWarnings.length > 0 && (
-        <div className="flex flex-wrap gap-1 mb-3">
+        <div className="flex flex-wrap gap-1 mb-2">
           {peakWarnings.map((w) => (
-            <span key={w} className="px-2 py-0.5 bg-orange-50 text-orange-600 text-xs rounded-full border border-orange-200 font-medium">
+            <span key={w} className="px-2 py-0.5 bg-orange-50 text-orange-500 text-xs rounded-full border border-orange-200">
               ⚠️ {w}
             </span>
           ))}
         </div>
       )}
 
-      {/* Address & Hours */}
-      <div className="mb-3 space-y-1 text-xs text-gray-500">
-        <p>📍 {restaurant.address}</p>
-        <p>🕐 {restaurant.openingHours}</p>
-      </div>
-
-      {/* Tabelog link */}
-      {restaurant.tabelogUrl && (
-        <a
-          href={restaurant.tabelogUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 mb-3 px-3 py-1.5 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-100 transition-colors"
-        >
-          🍽️ 食べログで見る →
-        </a>
-      )}
-
-      {/* Reason */}
-      <div className="bg-green-50 rounded-lg px-3 py-2 border border-green-100">
-        <p className="text-xs text-gray-500 mb-0.5">選ばれた理由</p>
-        <p className="text-sm text-green-800 font-medium">{reason}</p>
+      {/* Tabelog link + Reason — stacked but tight */}
+      <div className="flex items-center gap-2 flex-wrap">
+        {restaurant.tabelogUrl && (
+          <a
+            href={restaurant.tabelogUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 px-2.5 py-1 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-100 transition-colors"
+          >
+            🍽️ 食べログ →
+          </a>
+        )}
+        <div className="flex-1 min-w-0 bg-green-50 rounded-lg px-2.5 py-1.5 border border-green-100">
+          <span className="text-xs text-gray-500">理由： </span>
+          <span className="text-xs text-green-800 font-medium">{reason}</span>
+        </div>
       </div>
     </div>
   );
