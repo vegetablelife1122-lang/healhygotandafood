@@ -1,4 +1,4 @@
-import type { RankedRestaurant } from "./types";
+import type { RankedRestaurant, Restaurant } from "./types";
 
 // ひらがな・カタカナ・大小英字を統一してあいまい検索を可能にする
 export function normalizeForSearch(text: string): string {
@@ -25,6 +25,30 @@ export function formatCalories(cal: number): string {
 export function healthScoreLabel(score: number): string {
   const labels = ["", "★☆☆☆☆", "★★☆☆☆", "★★★☆☆", "★★★★☆", "★★★★★"];
   return labels[score] ?? "";
+}
+
+// ジャンル・シーンから混雑しやすい時間帯を推定して返す
+export function getPeakHourWarnings(restaurant: Restaurant): string[] {
+  const warnings: string[] = [];
+  const hasLunch = restaurant.visitTypes.includes("ランチ");
+  const hasDinner = restaurant.visitTypes.includes("ディナー");
+  const hasDrink = restaurant.visitTypes.includes("軽く飲む") || restaurant.visitTypes.includes("お酒メイン");
+  const { genre, walkingMinutes } = restaurant;
+
+  // ランチ混雑：駅近 × ランチ対応の人気ジャンル
+  const lunchCrowdedGenres = ["ラーメン", "和食", "イタリアン", "カフェ", "洋食", "中華"];
+  if (hasLunch && lunchCrowdedGenres.includes(genre)) {
+    const label = walkingMinutes <= 3 ? "ランチ 12〜13時は特に混雑" : "ランチ 12〜13時混雑";
+    warnings.push(label);
+  }
+
+  // ディナー混雑：焼肉・居酒屋・イタリアンは予約推奨
+  const dinnerCrowdedGenres = ["焼肉", "居酒屋", "イタリアン"];
+  if ((hasDinner || hasDrink) && dinnerCrowdedGenres.includes(genre)) {
+    warnings.push("ディナー 19〜21時混雑");
+  }
+
+  return warnings;
 }
 
 // 曜日文字 → JS getDay() と同じ数値 (0=日, 1=月, ..., 6=土)

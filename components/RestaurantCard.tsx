@@ -1,5 +1,5 @@
 import type { RankedRestaurant } from "@/lib/types";
-import { formatCalories, healthScoreLabel } from "@/lib/utils";
+import { formatCalories, healthScoreLabel, getPeakHourWarnings } from "@/lib/utils";
 
 interface RestaurantCardProps {
   ranked: RankedRestaurant;
@@ -28,6 +28,7 @@ const VISIT_TYPE_COLORS: Record<string, string> = {
 
 export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = false, onToggleFavorite }: RestaurantCardProps) {
   const { restaurant, reason, isRelaxed } = ranked;
+  const peakWarnings = getPeakHourWarnings(restaurant);
 
   return (
     <div
@@ -146,6 +147,17 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
             alt={`${restaurant.name}の写真`}
             className="w-full h-40 object-cover"
           />
+        </div>
+      )}
+
+      {/* Peak hour warnings */}
+      {peakWarnings.length > 0 && (
+        <div className="flex flex-wrap gap-1 mb-3">
+          {peakWarnings.map((w) => (
+            <span key={w} className="px-2 py-0.5 bg-orange-50 text-orange-600 text-xs rounded-full border border-orange-200 font-medium">
+              ⚠️ {w}
+            </span>
+          ))}
         </div>
       )}
 
