@@ -218,7 +218,7 @@ export default function HomePage() {
         {hasSearched && (
           <section ref={resultsRef}>
             <div className="flex items-center justify-between mb-4">
-              <h2 className="text-lg font-bold text-gray-800">
+              <h2 className="text-base font-bold text-gray-800 whitespace-nowrap">
                 健康を意識したおすすめ候補
               </h2>
               <div className="flex items-center gap-2">
