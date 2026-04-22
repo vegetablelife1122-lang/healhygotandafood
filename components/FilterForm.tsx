@@ -167,7 +167,7 @@ export default function FilterForm({ filters, onChange, onSubmit }: FilterFormPr
             <div className="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform peer-checked:translate-x-5" />
           </div>
           <span className="text-sm font-semibold text-gray-700 group-hover:text-emerald-800">
-            🕐 今開いてる店だけ表示
+            🕐 今営業中の店だけ表示
           </span>
         </label>
       </div>
