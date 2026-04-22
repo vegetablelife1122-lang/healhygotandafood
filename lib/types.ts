@@ -36,6 +36,7 @@ export type HealthTag = "野菜多め" | "高たんぱく" | "揚げ物少なめ
 export interface Restaurant {
   id: string;
   name: string;
+  nameReading?: string;
   area: Area;
   visitTypes: VisitType[];
   genre: Genre;

@@ -252,6 +252,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "w15",
     name: "Trattoria VICINO（ヴィチーノ）",
+    nameReading: "とらっとりあ びちーの",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -271,6 +272,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "w16",
     name: "CONA コナ 五反田店",
+    nameReading: "こな",
     area: "西五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "イタリアン",
@@ -289,6 +291,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "w18",
     name: "Bar Lagu（バー ラギュ）",
+    nameReading: "ばー らぎゅ",
     area: "西五反田",
     visitTypes: ["軽く飲む", "お酒メイン"],
     genre: "バー",
@@ -307,6 +310,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "w20",
     name: "Bread&Coffee IKEDAYAMA 五反田駅前店",
+    nameReading: "ぶれっどあんどこーひー いけだやま",
     area: "西五反田",
     visitTypes: ["ランチ"],
     genre: "カフェ",
@@ -460,6 +464,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "r08",
     name: "TOMORROW NEVER NOODLES",
+    nameReading: "とぅもろー ねばー ぬーどるす",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "ラーメン",
@@ -1259,6 +1264,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it01",
     name: "VIGO",
+    nameReading: "びご",
     area: "西五反田",
     visitTypes: ["ディナー"],
     genre: "イタリアン",
@@ -1277,6 +1283,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it02",
     name: "TRATTORIA ROMANO",
+    nameReading: "とらっとりあ ろまーの",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1296,6 +1303,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it05",
     name: "Radicale",
+    nameReading: "らでぃかーれ",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1315,6 +1323,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it06",
     name: "Kitchen and Bar Planet",
+    nameReading: "きっちん あんど ばー ぷらねっと",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー", "軽く飲む"],
     genre: "イタリアン",
@@ -1334,6 +1343,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it07",
     name: "DON CONA CONERY 五反田",
+    nameReading: "どん こな こなりー",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1353,6 +1363,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it08",
     name: "Tanto Tanto The Gardens 五反田",
+    nameReading: "たんと たんと ざ がーでんず",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1391,6 +1402,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it10",
     name: "Del Pesce",
+    nameReading: "でる ぺっしぇ",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1410,6 +1422,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it11",
     name: "h:armonia",
+    nameReading: "あるもにあ",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1429,6 +1442,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it12",
     name: "KURA Gotanda",
+    nameReading: "くら ごたんだ",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1448,6 +1462,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it13",
     name: "trattoria e poi",
+    nameReading: "とらっとりあ えぽい",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1467,6 +1482,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it14",
     name: "Vie Bon",
+    nameReading: "ヴィ ボン",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1486,6 +1502,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it15",
     name: "Ristorante Angelo",
+    nameReading: "りすとらんて あんじぇろ",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -1837,6 +1854,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "ca04",
     name: "HONEYCOMB COFFEE",
+    nameReading: "はにーこむ こーひー",
     area: "西五反田",
     visitTypes: ["ランチ"],
     genre: "カフェ",
@@ -1855,6 +1873,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "ca05",
     name: "Cafe au lait Tokyo",
+    nameReading: "かふぇ おれ とうきょう",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "カフェ",
@@ -1874,6 +1893,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "ca07",
     name: "SpecialtyCoffee AMAMERIA",
+    nameReading: "すぺしゃるてぃこーひー あまめりあ",
     area: "西五反田",
     visitTypes: ["ランチ"],
     genre: "カフェ",
@@ -1910,6 +1930,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "ca10",
     name: "MOBaCAFE",
+    nameReading: "もばかふぇ",
     area: "東五反田",
     visitTypes: ["ランチ"],
     genre: "カフェ",
@@ -1928,6 +1949,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "ca12",
     name: "usubane store",
+    nameReading: "うすばね すとあ",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "カフェ",
@@ -2040,6 +2062,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b01",
     name: "FAR YEAST TOKYO",
+    nameReading: "ふぁー いーすと とうきょう",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー", "軽く飲む", "お酒メイン"],
     genre: "バー",
@@ -2114,6 +2137,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b06",
     name: "wine bar Quintet",
+    nameReading: "わいんばー くいんてっと",
     area: "西五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "バー",
@@ -2150,6 +2174,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b08",
     name: "BAR 樽の水",
+    nameReading: "ばー たるのみず",
     area: "西五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "バー",
@@ -2258,6 +2283,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b14",
     name: "KOMA",
+    nameReading: "こま",
     area: "西五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "バー",
@@ -2276,6 +2302,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b15",
     name: "Okage Bar",
+    nameReading: "おかげ ばー",
     area: "東五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "バー",
@@ -2312,6 +2339,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b17",
     name: "bar Blast",
+    nameReading: "ばー ぶらすと",
     area: "東五反田",
     visitTypes: ["ディナー", "お酒メイン"],
     genre: "バー",
@@ -2348,6 +2376,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "b19",
     name: "Bar CALANDO",
+    nameReading: "ばー からんど",
     area: "西五反田",
     visitTypes: ["ディナー", "お酒メイン"],
     genre: "バー",
@@ -2701,6 +2730,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "wa20",
     name: "SUSHI BAR 魚々 COZY",
+    nameReading: "すし ばー ととと こーじー",
     area: "東五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "和食",
@@ -2920,6 +2950,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "wa32",
     name: "en yakitori",
+    nameReading: "えん やきとり",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー", "軽く飲む"],
     genre: "和食",
@@ -3234,6 +3265,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "e03",
     name: "FUMO DUE",
+    nameReading: "ふーも どぅえ",
     area: "東五反田",
     visitTypes: ["ディナー", "軽く飲む"],
     genre: "イタリアン",
@@ -3396,6 +3428,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "e13",
     name: "maya（マヤ）五反田店",
+    nameReading: "まや",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "その他",
@@ -3432,6 +3465,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "e15",
     name: "MR.CHICKEN 鶏飯店 五反田店",
+    nameReading: "みすたーちきん",
     area: "東五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "その他",
@@ -3522,6 +3556,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "e20",
     name: "Bread&Coffee IKEDAYAMA 本店",
+    nameReading: "ぶれっどあんどこーひー いけだやま",
     area: "東五反田",
     visitTypes: ["ランチ"],
     genre: "カフェ",
@@ -3560,6 +3595,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it17",
     name: "個室ビストロ FULLMOoN 五反田店",
+    nameReading: "こしつびすとろ ふるむーん",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",
@@ -3615,6 +3651,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it20",
     name: "BANZAI! POLLO",
+    nameReading: "ばんざい ぽーろ",
     area: "西五反田",
     visitTypes: ["ディナー"],
     genre: "イタリアン",
@@ -3652,6 +3689,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it22",
     name: "五反田cado",
+    nameReading: "ごたんだ かど",
     area: "西五反田",
     visitTypes: ["ディナー", "軽く飲む", "お酒メイン"],
     genre: "イタリアン",
@@ -3670,6 +3708,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it23",
     name: "Vierge",
+    nameReading: "びえるじゅ",
     area: "西五反田",
     visitTypes: ["ディナー"],
     genre: "イタリアン",
@@ -3707,6 +3746,7 @@ export const restaurants: Restaurant[] = [
   {
     id: "it25",
     name: "otto o otto",
+    nameReading: "おっと お おっと",
     area: "西五反田",
     visitTypes: ["ランチ", "ディナー"],
     genre: "イタリアン",

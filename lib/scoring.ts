@@ -5,8 +5,13 @@ import { normalizeForSearch } from "./utils";
 function scoreRestaurant(restaurant: Restaurant, filters: Filters, relaxCalories: boolean): number {
   let score = 0;
 
-  if (filters.name && normalizeForSearch(restaurant.name).includes(normalizeForSearch(filters.name))) {
-    score += SCORE_WEIGHTS.NAME_MATCH;
+  if (filters.name) {
+    const q = normalizeForSearch(filters.name);
+    const matchName = normalizeForSearch(restaurant.name).includes(q);
+    const matchReading = restaurant.nameReading ? normalizeForSearch(restaurant.nameReading).includes(q) : false;
+    if (matchName || matchReading) {
+      score += SCORE_WEIGHTS.NAME_MATCH;
+    }
   }
 
   if (filters.area && restaurant.area === filters.area) {
