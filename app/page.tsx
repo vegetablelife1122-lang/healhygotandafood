@@ -61,6 +61,7 @@ const DEFAULT_FILTERS: Filters = {
   preferHighProtein: false,
   preferVegetable: false,
   preferLowFried: false,
+  openNow: false,
 };
 
 export default function HomePage() {

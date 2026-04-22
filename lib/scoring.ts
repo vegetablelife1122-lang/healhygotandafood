@@ -1,6 +1,6 @@
 import type { Restaurant, Filters, RankedRestaurant } from "./types";
 import { SCORE_WEIGHTS, MAX_RESULTS, MIN_RESULTS, CALORIE_RELAX_MARGIN } from "./constants";
-import { normalizeForSearch } from "./utils";
+import { normalizeForSearch, isOpenNow } from "./utils";
 
 function scoreRestaurant(restaurant: Restaurant, filters: Filters, relaxCalories: boolean): number {
   let score = 0;
@@ -107,7 +107,11 @@ export function rankRestaurants(
   restaurants: Restaurant[],
   filters: Filters
 ): RankedRestaurant[] {
-  const strictScores = restaurants.map((r) => ({
+  const candidates = filters.openNow
+    ? restaurants.filter((r) => isOpenNow(r.openingHours))
+    : restaurants;
+
+  const strictScores = candidates.map((r) => ({
     restaurant: r,
     score: scoreRestaurant(r, filters, false),
     reason: buildReason(r, filters, false),
@@ -121,7 +125,7 @@ export function rankRestaurants(
     return topStrict;
   }
 
-  const relaxedScores = restaurants.map((r) => ({
+  const relaxedScores = candidates.map((r) => ({
     restaurant: r,
     score: scoreRestaurant(r, filters, true),
     reason: buildReason(r, filters, true),

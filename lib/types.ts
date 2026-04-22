@@ -66,6 +66,7 @@ export interface Filters {
   preferHighProtein: boolean;
   preferVegetable: boolean;
   preferLowFried: boolean;
+  openNow: boolean;
 }
 
 export interface RankedRestaurant {

@@ -153,6 +153,25 @@ export default function FilterForm({ filters, onChange, onSubmit }: FilterFormPr
         )}
       </div>
 
+      {/* Open now */}
+      <div>
+        <label className="flex items-center gap-3 cursor-pointer group">
+          <div className="relative">
+            <input
+              type="checkbox"
+              checked={filters.openNow}
+              onChange={(e) => update("openNow", e.target.checked)}
+              className="sr-only peer"
+            />
+            <div className="w-11 h-6 bg-gray-200 rounded-full peer peer-checked:bg-emerald-700 transition-colors" />
+            <div className="absolute top-0.5 left-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform peer-checked:translate-x-5" />
+          </div>
+          <span className="text-sm font-semibold text-gray-700 group-hover:text-emerald-800">
+            🟢 今開いてる店だけ表示
+          </span>
+        </label>
+      </div>
+
       {/* Health preferences */}
       <div>
         <p className="text-sm font-semibold text-gray-700 mb-2">健康志向の条件</p>
