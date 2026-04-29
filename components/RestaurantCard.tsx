@@ -147,24 +147,14 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         </div>
       )}
 
-      {/* Address + Hours + Maps */}
+      {/* Address + Hours */}
       <div className="mb-1.5 text-xs text-gray-500 space-y-0.5">
-        <div className="flex items-start gap-1 flex-wrap">
+        <div className="flex items-center gap-1 flex-wrap">
           <span>📍 {restaurant.address}</span>
           {distance != null && (
             <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-medium whitespace-nowrap">
               現在地から {formatDistance(distance)}
             </span>
-          )}
-          {mapsUrl && (
-            <a
-              href={mapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="px-1.5 py-0.5 bg-green-50 text-green-600 rounded-full text-xs font-medium whitespace-nowrap hover:bg-green-100 transition-colors"
-            >
-              Mapsで開く →
-            </a>
           )}
         </div>
         <p>🕐 {restaurant.openingHours}</p>
@@ -187,17 +177,29 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         <p className="text-sm text-green-800 font-medium line-clamp-2">{reason}</p>
       </div>
 
-      {/* Tabelog link */}
-      {restaurant.tabelogUrl && (
-        <a
-          href={restaurant.tabelogUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center gap-1 px-3 py-1.5 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-100 transition-colors"
-        >
-          🍽️ 食べログで見る →
-        </a>
-      )}
+      {/* Links */}
+      <div className="flex gap-2 flex-wrap">
+        {restaurant.tabelogUrl && (
+          <a
+            href={restaurant.tabelogUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 px-3 py-1.5 bg-red-50 border border-red-200 text-red-600 text-xs font-medium rounded-lg hover:bg-red-100 transition-colors"
+          >
+            🍽️ 食べログで見る →
+          </a>
+        )}
+        {mapsUrl && (
+          <a
+            href={mapsUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 px-3 py-1.5 bg-white border border-gray-200 text-gray-600 text-xs font-medium rounded-lg hover:bg-gray-50 transition-colors"
+          >
+            📍 Google Maps
+          </a>
+        )}
+      </div>
     </div>
   );
 }
