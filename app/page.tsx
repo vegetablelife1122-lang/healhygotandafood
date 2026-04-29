@@ -197,13 +197,13 @@ export default function HomePage() {
               </span>
             </div>
             <p className="text-green-300 text-xs font-semibold tracking-[0.2em] uppercase mb-2">Gotanda Healthy Eats</p>
-            <h1 className="text-xl font-black leading-tight mb-2 drop-shadow-lg">
-              健康を気にする人のための五反田外食決定機
+            <h1 className="text-2xl font-black leading-tight mb-2 drop-shadow-lg">
+              健康を気にする人のための<br />五反田外食決定機
             </h1>
             <p className="text-gray-300 text-xs leading-relaxed max-w-md mx-auto mb-1">
-              カロリー・ジャンル・シーン・お酒の条件を選んで、今日の自分にぴったりの1店を見つけよう。
+              カロリー・ジャンル・シーン・お酒の条件を選んで、<br />今日の自分にぴったりの1店を見つけよう。
             </p>
-            <p className="text-white/50 text-xs">掲載店舗数 214件</p>
+            <p className="text-white/50 text-xs">現在掲載店舗 214件</p>
           </div>
         </div>
       </header>
