@@ -201,9 +201,9 @@ export default function HomePage() {
               健康を気にする人のための<br />五反田外食決定機
             </h1>
             <p className="text-gray-300 text-sm leading-relaxed max-w-md mx-auto">
-              カロリー・ジャンル・シーン・お酒の条件を選んで、<br className="hidden sm:block" />
-              今日の自分にぴったりの1店を見つけよう。
+              カロリー・ジャンル・シーン・お酒の条件を選んで、今日の自分にぴったりの1店を見つけよう。
             </p>
+            <p className="text-white/60 text-xs mt-2">掲載店舗数 214件</p>
           </div>
         </div>
       </header>
