@@ -22,6 +22,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-6-3",
     openingHours: "月〜木・土 7:00〜翌3:00 / 金 7:00〜翌4:00 / 日祝 7:00〜翌1:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13111869/",
+    lat: 35.6267,
+    lng: 139.7214,
   },
   {
     id: "w02",
@@ -41,6 +43,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-32-8 ぐれいぷハウス2F",
     openingHours: "月〜金 11:30〜14:30 / 17:30〜23:00 / 土 17:30〜22:30 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13179032/",
+    lat: 35.6266,
+    lng: 139.7215,
   },
   {
     id: "w04",
@@ -60,6 +64,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-26-2 桔梗ハイツ2F",
     openingHours: "月〜金 11:30〜15:00 / 17:30〜23:00 / 土・祝 11:30〜15:00 / 17:30〜21:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13050281/",
+    lat: 35.6259,
+    lng: 139.7206,
   },
   {
     id: "w05",
@@ -79,6 +85,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-15-13 ニューハイツ西五反田1F",
     openingHours: "月〜日 11:00〜15:30 / 17:00〜22:30 / 年中無休（年末年始除く）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13042320/",
+    lat: 35.6257,
+    lng: 139.7205,
   },
   {
     id: "w06",
@@ -98,6 +106,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-15-13 ニューハイツ西五反田1F",
     openingHours: "毎日 11:30〜15:00 / 17:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13154272/",
+    lat: 35.6257,
+    lng: 139.7205,
   },
   {
     id: "w07",
@@ -117,6 +127,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8",
     openingHours: "月〜土 11:00〜15:00 / 17:00〜21:00 / 祝 11:00〜15:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13292287/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
   {
     id: "w08",
@@ -136,6 +148,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-11-9 司ビル2F",
     openingHours: "月〜土 11:30〜翌4:00 / 日祝 11:30〜翌3:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13029564/",
+    lat: 35.6266,
+    lng: 139.7214,
   },
   {
     id: "w09",
@@ -154,6 +168,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-17-1 第二東栄ビル2F",
     openingHours: "月〜日 16:00〜23:30（L.O.22:30）/ 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13180146/",
+    lat: 35.6265,
+    lng: 139.7215,
   },
   {
     id: "w10",
@@ -173,6 +189,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-17-6 GRIO五反田5F",
     openingHours: "火〜金・祝前 11:30〜15:00 / 17:00〜23:00 / 土 11:30〜23:00 / 日祝 11:30〜22:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13195060/",
+    lat: 35.6265,
+    lng: 139.7215,
   },
   {
     id: "w11",
@@ -192,6 +210,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-7-1 リビオ五反田プラグマGタワー2F",
     openingHours: "火〜土 17:00〜22:00（ディナー）/ 火・木・土 11:30〜13:30（ランチ）/ 月・日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13020372/",
+    lat: 35.6263,
+    lng: 139.7215,
   },
   {
     id: "w12",
@@ -210,6 +230,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-1 石塚ビル1F",
     openingHours: "火〜土 16:30〜23:30 / 日祝 16:00〜22:30 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13046401/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "w13",
@@ -229,6 +251,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-25-1 KANOビルB1F",
     openingHours: "月〜金 11:30〜23:30 / 土・祝 13:00〜23:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13178151/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "w14",
@@ -248,6 +272,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-7-1 リビオ五反田プラグマGタワー1F",
     openingHours: "月〜土 11:00〜15:00 / 17:00〜22:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13040990/",
+    lat: 35.6263,
+    lng: 139.7215,
   },
   {
     id: "w15",
@@ -268,6 +294,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-8 ホテルマイステイズ五反田駅前2F",
     openingHours: "ランチ 毎日 11:30〜15:00 / ディナー 月〜土・祝 17:30〜22:00（金 〜23:00）/ 日ディナー休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13185399/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "w16",
@@ -287,6 +315,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-18-3 グレイス五反田",
     openingHours: "月〜土 17:00〜翌2:00 / 日 15:00〜23:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13219517/",
+    lat: 35.6259,
+    lng: 139.7208,
   },
   {
     id: "w18",
@@ -306,6 +336,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-9-3 リバーライトビル1F",
     openingHours: "月〜土 18:00〜翌1:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13213367/",
+    lat: 35.6264,
+    lng: 139.7217,
   },
   {
     id: "w20",
@@ -326,6 +358,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-10 CIRCLES五反田1F",
     openingHours: "毎日 8:00〜19:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13298595/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
 
   // ===== ラーメン追加 =====
@@ -346,6 +380,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-1 石塚ビル1F",
     openingHours: "月〜土 11:00〜15:00 / 17:00〜22:00（売切終了）/ 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13279264/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "r02",
@@ -365,6 +401,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-18-3 グレイス五反田1F",
     openingHours: "月〜木 11:00〜14:30 / 18:00〜21:30 / 金 11:00〜14:30 / 18:00〜23:30 / 土 11:00〜14:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13250923/",
+    lat: 35.6259,
+    lng: 139.7208,
   },
   {
     id: "r03",
@@ -384,6 +422,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-33-10 サインタワーB1F",
     openingHours: "月〜土 11:45〜15:00 / 17:30〜21:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13284889/",
+    lat: 35.6266,
+    lng: 139.7216,
   },
   {
     id: "r04",
@@ -403,6 +443,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区大崎4-2-2 トーカンマンション五反田1F",
     openingHours: "月〜土・祝 10:30〜23:00 / 日 10:30〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13002046/",
+    lat: 35.6191,
+    lng: 139.7285,
   },
   {
     id: "r05",
@@ -422,6 +464,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-18-14 東五反田ビル1F",
     openingHours: "月〜金 11:30〜14:30 / 18:00〜21:45 / 土日祝 11:30〜14:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13007182/",
+    lat: 35.6271,
+    lng: 139.7241,
   },
   {
     id: "r06",
@@ -441,6 +485,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-30-10 セブンスターマンション五反田1F",
     openingHours: "月〜日祝 11:30〜15:30 / 17:30〜21:00 / 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13262920/",
+    lat: 35.6257,
+    lng: 139.7205,
   },
   {
     id: "r07",
@@ -460,6 +506,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-24-4",
     openingHours: "毎日 11:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13159962/",
+    lat: 35.6265,
+    lng: 139.7217,
   },
   {
     id: "r08",
@@ -480,6 +528,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-24-4",
     openingHours: "月〜金 11:00〜14:30 / 18:00〜21:30 / 土 11:00〜14:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13297132/",
+    lat: 35.6265,
+    lng: 139.7217,
   },
   {
     id: "r09",
@@ -498,6 +548,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-21-11",
     openingHours: "月〜日 11:00〜23:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13001555/",
+    lat: 35.6268,
+    lng: 139.7239,
   },
   {
     id: "r10",
@@ -517,6 +569,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-15",
     openingHours: "月〜土 11:00〜15:30 / 16:30〜23:00 / 日 11:00〜15:30 / 16:30〜21:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13180519/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "r11",
@@ -536,6 +590,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-20-1 明石レジデンス1F",
     openingHours: "月〜金 11:00〜15:00 / 17:00〜21:00 / 土・祝 11:30〜15:00 / 18:00〜21:00 / 日 11:30〜15:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13195043/",
+    lat: 35.628,
+    lng: 139.725,
   },
   {
     id: "r13",
@@ -555,6 +611,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-9",
     openingHours: "月〜土 11:00〜15:00 / 18:00〜翌6:00 / 日 11:00〜16:00 / 18:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13313022/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "r14",
@@ -574,6 +632,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-1-1",
     openingHours: "月〜日・祝 11:00〜翌4:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13295699/",
+    lat: 35.6277,
+    lng: 139.7251,
   },
   {
     id: "r16",
@@ -593,6 +653,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-8-1",
     openingHours: "毎日 11:00〜翌1:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13180547/",
+    lat: 35.6264,
+    lng: 139.7216,
   },
   {
     id: "r17",
@@ -612,6 +674,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-25-19",
     openingHours: "月〜日 11:00〜15:00 / 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13310404/",
+    lat: 35.6271,
+    lng: 139.7238,
   },
   {
     id: "r18",
@@ -631,6 +695,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-13 五反田JPビルディング1F",
     openingHours: "毎日 11:00〜22:00（施設休業日除く）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13296707/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
 
   // ===== 居酒屋追加 =====
@@ -652,6 +718,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-8 秀和五反田駅前レジデンス1F・2F",
     openingHours: "月〜金 17:00〜23:00 / 土日祝 12:00〜22:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13247587/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "i02",
@@ -670,6 +738,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-6 1F",
     openingHours: "月〜金・祝前後 13:00〜翌5:00 / 土日祝 12:00〜翌5:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13305551/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "i03",
@@ -688,6 +758,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-18-3 グレイス五反田B1F",
     openingHours: "月〜木 17:00〜翌0:00 / 金 17:00〜翌1:00 / 土・祝前日 15:00〜翌1:00 / 日・祝 15:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13302547/",
+    lat: 35.6259,
+    lng: 139.7208,
   },
   {
     id: "i04",
@@ -706,6 +778,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-26-2",
     openingHours: "月〜木 16:00〜翌0:00 / 金 16:00〜翌1:00 / 土日 15:00〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13231571/",
+    lat: 35.6266,
+    lng: 139.7214,
   },
   {
     id: "i05",
@@ -724,6 +798,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-1-10 ヒキタカ五反田ビル1F",
     openingHours: "月〜土・祝前後 17:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13310667/",
+    lat: 35.6199,
+    lng: 139.7224,
   },
   {
     id: "i06",
@@ -742,6 +818,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-18-1 GotandaEXビル7F",
     openingHours: "月・日・祝 17:00〜22:15 / 火〜土・祝前日 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13263609/",
+    lat: 35.6266,
+    lng: 139.7216,
   },
   {
     id: "i07",
@@ -760,6 +838,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-15-11 松岡ビル1F",
     openingHours: "月〜木 16:00〜23:30 / 金・祝前日 16:00〜翌0:00 / 土 16:00〜翌0:00 / 日・祝 16:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13309785/",
+    lat: 35.6257,
+    lng: 139.7205,
   },
   {
     id: "i08",
@@ -778,6 +858,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-18-5 山口ビル1F",
     openingHours: "月〜金 16:00〜翌0:30 / 土日祝 14:00〜翌0:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13215107/",
+    lat: 35.6271,
+    lng: 139.7241,
   },
   {
     id: "i09",
@@ -796,6 +878,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-27-7",
     openingHours: "月〜日・祝 17:00〜23:30（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13122590/",
+    lat: 35.6267,
+    lng: 139.7215,
   },
   {
     id: "i10",
@@ -814,6 +898,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-1 石塚ビルB1",
     openingHours: "月〜日 17:00〜23:00（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13122551/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "i11",
@@ -832,6 +918,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-5-8 野津ビル2F",
     openingHours: "月〜金 17:00〜23:30 / 土・祝 16:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13295030/",
+    lat: 35.6259,
+    lng: 139.7205,
   },
   {
     id: "i12",
@@ -850,6 +938,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-8 FPGリンクス五反田3F",
     openingHours: "月〜日 17:00〜23:00（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13312806/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "i13",
@@ -868,6 +958,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-16-9 フェニックスビル1F",
     openingHours: "月〜木・祝 17:00〜翌5:00 / 金 17:00〜翌8:00 / 土・祝前日 16:00〜翌5:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13127636/",
+    lat: 35.6269,
+    lng: 139.7239,
   },
   {
     id: "i14",
@@ -886,6 +978,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-16-1 菅原ビル3F",
     openingHours: "月〜土・祝 16:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13219304/",
+    lat: 35.6264,
+    lng: 139.7214,
   },
   {
     id: "i15",
@@ -905,6 +999,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8 ドルミ五反田ドゥメゾン1F",
     openingHours: "月〜金 11:30〜14:00 / 月〜木 17:30〜翌0:00 / 金 17:00〜翌0:00 / 土 17:00〜翌0:00 / 日・祝 17:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13275560/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
   {
     id: "i16",
@@ -923,6 +1019,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-32-2 五反田ALCOVE1F",
     openingHours: "月〜木・土 17:00〜翌0:00 / 金 17:00〜翌1:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13234652/",
+    lat: 35.6266,
+    lng: 139.7215,
   },
   {
     id: "i17",
@@ -941,6 +1039,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-7-1 リビオ五反田プラグマGタワーB1F",
     openingHours: "月〜木・祝前日 17:00〜23:00 / 金 17:00〜翌0:00 / 土 16:00〜23:00 / 日・祝 16:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13034852/",
+    lat: 35.6263,
+    lng: 139.7215,
   },
 
   // ===== 焼肉追加 =====
@@ -961,6 +1061,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-29-10 五反田サニーフラット103",
     openingHours: "月〜日 17:00〜翌1:00（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13308784/",
+    lat: 35.6257,
+    lng: 139.7209,
   },
   {
     id: "y02",
@@ -980,6 +1082,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-12-9 イルヴィアーレ五反田4F",
     openingHours: "火〜日・祝 11:30〜14:30 / 17:00〜23:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13239085/",
+    lat: 35.6271,
+    lng: 139.724,
   },
   {
     id: "y03",
@@ -998,6 +1102,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-8 FPGリンクス五反田4F",
     openingHours: "月〜日 16:00〜23:00（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13312446/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "y04",
@@ -1017,6 +1123,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-17-7 プラザスクエア五反田2F",
     openingHours: "月〜日 11:30〜14:30 / 17:00〜22:30（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13291554/",
+    lat: 35.6265,
+    lng: 139.7215,
   },
   {
     id: "y05",
@@ -1035,6 +1143,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-27-7 VORT五反田1F",
     openingHours: "月〜金 17:00〜翌0:00 / 土日祝 12:00〜翌0:00 / 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13299291/",
+    lat: 35.6267,
+    lng: 139.7215,
   },
   {
     id: "y06",
@@ -1054,6 +1164,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-28-4 田口ビル2F",
     openingHours: "月〜日 11:30〜15:00 / 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13265671/",
+    lat: 35.6263,
+    lng: 139.7216,
   },
   {
     id: "y07",
@@ -1072,6 +1184,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-8 秀和五反田駅前レジデンス206",
     openingHours: "月〜木 16:30〜22:50 / 金 16:30〜翌5:00 / 土日祝 15:30〜22:50",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13195854/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "y08",
@@ -1091,6 +1205,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-32-2 1F",
     openingHours: "月〜金 17:00〜23:30 / 土日・祝 12:00〜15:00 / 17:00〜23:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13089852/",
+    lat: 35.6266,
+    lng: 139.7215,
   },
   {
     id: "y09",
@@ -1110,6 +1226,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-8 秀和五反田駅前レジデンス2F",
     openingHours: "月〜金 17:00〜23:00 / 土 12:00〜15:00 / 17:00〜23:00 / 日・祝 12:00〜15:00 / 17:00〜22:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13029830/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "y10",
@@ -1128,6 +1246,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-25-7",
     openingHours: "月〜日 17:00〜23:00（年中無休、年末年始除く）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13188527/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "y11",
@@ -1147,6 +1267,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-2-5 シンワビル1F〜2F",
     openingHours: "火〜土 11:30〜23:00 / 日・祝 11:30〜22:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13013220/",
+    lat: 35.6277,
+    lng: 139.7252,
   },
   {
     id: "y12",
@@ -1166,6 +1288,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-30-4",
     openingHours: "月〜土 17:00〜23:30 / 日・祝 12:00〜15:00 / 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13287156/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "y13",
@@ -1184,6 +1308,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-21-3 東京モリスビル第6 1F",
     openingHours: "月〜金・祝 17:00〜23:00 / 土日 16:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13313678/",
+    lat: 35.6268,
+    lng: 139.7239,
   },
   {
     id: "y14",
@@ -1203,6 +1329,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-17-6 Grio五反田ビル3F",
     openingHours: "月〜土 11:30〜15:00 / 17:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13194663/",
+    lat: 35.6265,
+    lng: 139.7215,
   },
   {
     id: "y15",
@@ -1222,6 +1350,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-5-2 トラヤビル4F",
     openingHours: "月〜金 12:00〜15:00 / 16:00〜23:00 / 土日 12:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13215975/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "y16",
@@ -1240,6 +1370,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-14-15 共同ビル1〜3F",
     openingHours: "月〜土 18:00〜翌5:00 / 日・祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13233085/",
+    lat: 35.6268,
+    lng: 139.7242,
   },
   {
     id: "y17",
@@ -1258,6 +1390,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-2-2 松楽ビル2F",
     openingHours: "月〜金 16:00〜翌0:00 / 土日・祝 11:30〜翌0:00（年中無休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13028238/",
+    lat: 35.6277,
+    lng: 139.7252,
   },
 
   // ===== イタリアン追加 =====
@@ -1279,6 +1413,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-8 秀和五反田駅前レジデンス2F",
     openingHours: "月〜木・日 17:30〜23:00 / 金・土・祝前日 17:30〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13290029/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "it02",
@@ -1299,6 +1435,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-5-1 A-Place五反田駅前B1F",
     openingHours: "月〜金 12:00〜14:30 / 17:30〜23:00 / 土日祝 12:00〜15:00 / 17:30〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13133526/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "it05",
@@ -1319,6 +1457,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-20-2",
     openingHours: "月〜火・木〜日 11:30〜14:30 / 18:00〜22:30 / 水定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13206070/",
+    lat: 35.6267,
+    lng: 139.7213,
   },
   {
     id: "it06",
@@ -1339,6 +1479,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-28-10 五反田花谷ビル1F",
     openingHours: "月〜木 11:30〜23:00 / 金・祝前日 11:30〜23:30 / 土 12:00〜23:00 / 日・祝 12:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13015648/",
+    lat: 35.628,
+    lng: 139.7281,
   },
   {
     id: "it07",
@@ -1359,6 +1501,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-1-2 五反田東急スクエア8F",
     openingHours: "月〜金 11:00〜15:00 / 16:00〜22:00（L.O.21:00）/ 土日祝 11:00〜22:00（L.O.21:00）/ 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13051710/",
+    lat: 35.6277,
+    lng: 139.7251,
   },
   {
     id: "it08",
@@ -1379,6 +1523,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-2-6 三井ガーデンホテル五反田1F",
     openingHours: "月〜金 6:30〜10:00 / 11:30〜15:00 / 17:30〜22:00 / 土日 6:30〜10:00 / 11:30〜15:00 / 17:00〜22:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13223624/",
+    lat: 35.6277,
+    lng: 139.7252,
   },
   {
     id: "it09",
@@ -1398,6 +1544,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-9-7 ピロティ五反田1F",
     openingHours: "火〜土 11:30〜14:00 / 17:30〜22:00 / 日 17:30〜22:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13160558/",
+    lat: 35.6277,
+    lng: 139.7254,
   },
   {
     id: "it10",
@@ -1418,6 +1566,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-15-9 ブルーベルビル1F",
     openingHours: "月〜金 11:30〜15:00 / 17:00〜23:00 / 土 17:00〜23:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13002037/",
+    lat: 35.6257,
+    lng: 139.7205,
   },
   {
     id: "it11",
@@ -1438,6 +1588,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-31-5 セブンスターマンション第5五反田1F",
     openingHours: "火〜金 11:30〜14:30 / 18:00〜23:00 / 月・土・祝日 18:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13233535/",
+    lat: 35.6258,
+    lng: 139.7206,
   },
   {
     id: "it12",
@@ -1458,6 +1610,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-32-3 DAIビル1F",
     openingHours: "月〜日 11:30〜22:30（L.O.22:00）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13007453/",
+    lat: 35.6266,
+    lng: 139.7215,
   },
   {
     id: "it13",
@@ -1478,6 +1632,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-15 東京モリスビル第2 2F",
     openingHours: "火〜金 11:30〜13:30 / 18:00〜22:00 / 土日祝 16:00〜22:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13251566/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "it14",
@@ -1498,6 +1654,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-25-6 セブンスター第10五反田102",
     openingHours: "月〜金 11:30〜14:00 / 17:30〜22:30 / 土・祝日 17:00〜22:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13197458/",
+    lat: 35.6259,
+    lng: 139.7205,
   },
   {
     id: "it15",
@@ -1518,6 +1676,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田3-17-21 フェイム島津山1F",
     openingHours: "月〜日 12:00〜14:30 / 18:00〜22:00（完全予約制）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13114655/",
+    lat: 35.6285,
+    lng: 139.7265,
   },
 
   // ===== 中華追加 =====
@@ -1539,6 +1699,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-25-19",
     openingHours: "火〜日 11:30〜14:30 / 17:00〜22:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13206629/",
+    lat: 35.6271,
+    lng: 139.7238,
   },
   {
     id: "ch02",
@@ -1558,6 +1720,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-14-13 リバーサイドニックハイム五反田1F",
     openingHours: "月〜土・祝 11:30〜15:00 / 17:30〜22:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13279567/",
+    lat: 35.6256,
+    lng: 139.7209,
   },
   {
     id: "ch03",
@@ -1576,6 +1740,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-6",
     openingHours: "毎日 17:00〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13255310/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "ch04",
@@ -1595,6 +1761,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8 ドルミ五反田ドゥメゾン1F",
     openingHours: "月〜日 11:00〜22:30 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13002045/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
   {
     id: "ch06",
@@ -1613,6 +1781,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-15",
     openingHours: "月〜日 11:00〜22:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13281601/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "ch07",
@@ -1631,6 +1801,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-12-13 親切堂ビル2F",
     openingHours: "月〜土 11:30〜14:30 / 17:30〜22:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13271625/",
+    lat: 35.6271,
+    lng: 139.724,
   },
   {
     id: "ch08",
@@ -1650,6 +1822,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-8 秀和五反田駅前レジデンス2F",
     openingHours: "月〜金 11:30〜14:00 / 17:00〜22:30（L.O.21:30）/ 土日 11:30〜14:00 / 17:00〜22:00（L.O.21:00）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13012677/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "ch09",
@@ -1668,6 +1842,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-2 2F〜3F",
     openingHours: "月〜土 11:30〜14:30 / 17:30〜22:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13083288/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "ch10",
@@ -1686,6 +1862,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-8 秀和五反田駅前レジデンス1F",
     openingHours: "月〜日 11:30〜翌1:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13300400/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "ch11",
@@ -1704,6 +1882,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-11-15 壹番館1F",
     openingHours: "月〜土 11:30〜14:00 / 17:30〜22:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13217309/",
+    lat: 35.6259,
+    lng: 139.7206,
   },
   {
     id: "ch12",
@@ -1722,6 +1902,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区大崎4-2-2",
     openingHours: "月〜金 11:00〜14:30 / 17:30〜21:30 / 土 11:00〜14:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13062060/",
+    lat: 35.6191,
+    lng: 139.7285,
   },
   {
     id: "ch13",
@@ -1740,6 +1922,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-5-8 野津ビル4F",
     openingHours: "月〜日 11:00〜22:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13240907/",
+    lat: 35.6259,
+    lng: 139.7205,
   },
   {
     id: "ch14",
@@ -1758,6 +1942,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-27-6 B1F",
     openingHours: "月〜土 11:30〜14:30 / 17:30〜22:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13040838/",
+    lat: 35.6284,
+    lng: 139.728,
   },
   {
     id: "ch15",
@@ -1776,6 +1962,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-23-4",
     openingHours: "月〜金 11:00〜14:30 / 17:30〜21:00 / 土 11:00〜14:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13091855/",
+    lat: 35.6264,
+    lng: 139.7216,
   },
   {
     id: "ch16",
@@ -1794,6 +1982,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-26-3 アトレ五反田2 1F",
     openingHours: "月〜日 11:30〜翌1:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13245378/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "ch17",
@@ -1812,6 +2002,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-5-1 101",
     openingHours: "月〜金 11:00〜14:30 / 17:30〜21:00 / 土 11:00〜14:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13295649/",
+    lat: 35.6201,
+    lng: 139.7223,
   },
 
   // ===== カフェ追加 =====
@@ -1832,6 +2024,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-27-12 扇寿ビルB1F",
     openingHours: "月〜金 12:00〜20:00 / 土 12:00〜17:00（第1・3・5土曜営業）/ 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13059498/",
+    lat: 35.6284,
+    lng: 139.728,
   },
   {
     id: "ca02",
@@ -1850,6 +2044,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-20-3 MKYビル1F",
     openingHours: "月〜日 8:00〜15:00（売り切れ次第閉店）/ 水定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13231970/",
+    lat: 35.6267,
+    lng: 139.7213,
   },
   {
     id: "ca04",
@@ -1869,6 +2065,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区大崎3-15-23 鈴木ビル1F",
     openingHours: "月〜日 9:00〜18:00（不定休）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13295268/",
+    lat: 35.6199,
+    lng: 139.7288,
   },
   {
     id: "ca05",
@@ -1889,6 +2087,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-3 加藤ビル3F",
     openingHours: "月〜木 8:30〜23:00 / 金 8:30〜19:00 / 土 8:00〜19:00 / 日祝 8:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13266143/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "ca07",
@@ -1908,6 +2108,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-13 五反田JPビルディング1F",
     openingHours: "月〜日 8:00〜20:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13296573/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "ca08",
@@ -1926,6 +2128,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-30-10 セブンスターマンション第一1F",
     openingHours: "火〜土 11:00〜22:00 / 月・日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13189734/",
+    lat: 35.6257,
+    lng: 139.7205,
   },
   {
     id: "ca10",
@@ -1945,6 +2149,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-3-2 タイセイビル1F",
     openingHours: "月〜日 8:00〜20:00（L.O.19:30）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13260389/",
+    lat: 35.6278,
+    lng: 139.7253,
   },
   {
     id: "ca12",
@@ -1965,6 +2171,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田3-17-21 ダモビル1F",
     openingHours: "月〜土 11:00〜22:30（L.O.22:00）/ 土日祝 11:00〜22:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13278758/",
+    lat: 35.6285,
+    lng: 139.7265,
   },
   {
     id: "ca13",
@@ -1983,6 +2191,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-20-4 パーク24グループ本社ビル",
     openingHours: "月〜金 8:00〜19:00 / 土日祝 11:00〜18:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13235249/",
+    lat: 35.626,
+    lng: 139.7205,
   },
   {
     id: "ca14",
@@ -2001,6 +2211,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-9-7 ドルミ五反田アンメゾン1F",
     openingHours: "月〜金 7:00〜18:00 / 土日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13075894/",
+    lat: 35.6257,
+    lng: 139.7209,
   },
   {
     id: "ca15",
@@ -2020,6 +2232,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-27-6 第一五反田ビル2F",
     openingHours: "月〜木・日 10:00〜22:00 / 金〜土 10:00〜22:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13021585/",
+    lat: 35.6284,
+    lng: 139.728,
   },
   {
     id: "ca16",
@@ -2038,6 +2252,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-17-4",
     openingHours: "月〜金 9:00〜18:00 / 土 11:00〜16:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13249814/",
+    lat: 35.6258,
+    lng: 139.7207,
   },
   {
     id: "ca18",
@@ -2056,6 +2272,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-21-5 2F",
     openingHours: "月〜土 9:00〜22:00（L.O.21:15）/ 日祝 9:00〜21:00（L.O.20:15）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13234417/",
+    lat: 35.6268,
+    lng: 139.7239,
   },
 
   // ===== バー追加 =====
@@ -2078,6 +2296,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-15-6",
     openingHours: "月〜金 11:30〜14:00 / 17:00〜23:00 / 土 11:30〜23:00 / 日祝 11:30〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13251834/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "b03",
@@ -2096,6 +2316,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-7-8 誠實ビル9F",
     openingHours: "火〜金・祝前日 17:00〜23:00 / 土日祝 15:00〜22:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13197463/",
+    lat: 35.6256,
+    lng: 139.7207,
   },
   {
     id: "b04",
@@ -2115,6 +2337,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-15-7 ソシアル五反田1F",
     openingHours: "月〜金 11:00〜14:30 / 18:00〜翌0:30 / 土 17:30〜翌0:30 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13060139/",
+    lat: 35.6269,
+    lng: 139.7238,
   },
   {
     id: "b05",
@@ -2133,6 +2357,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-1",
     openingHours: "月〜日 18:00〜翌2:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13262100/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "b06",
@@ -2152,6 +2378,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田7-8-9 puit en pierre A棟1F",
     openingHours: "月〜木 17:00〜23:30 / 金 17:00〜翌2:00 / 土 15:00〜翌2:00 / 日 15:00〜23:30 / 水定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13257604/",
+    lat: 35.6207,
+    lng: 139.7216,
   },
   {
     id: "b07",
@@ -2170,6 +2398,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区高輪3-26-33",
     openingHours: "月〜日 17:00〜翌0:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13001560/",
+    lat: 35.6381,
+    lng: 139.7289,
   },
   {
     id: "b08",
@@ -2189,6 +2419,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-9-5",
     openingHours: "月〜土 20:00〜翌3:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13036401/",
+    lat: 35.6264,
+    lng: 139.7217,
   },
   {
     id: "b09",
@@ -2207,6 +2439,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-8-7",
     openingHours: "月〜日 19:00〜翌4:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13031847/",
+    lat: 35.6264,
+    lng: 139.7216,
   },
   {
     id: "b10",
@@ -2225,6 +2459,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-3-12",
     openingHours: "月〜土 19:00〜翌3:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13078636/",
+    lat: 35.6258,
+    lng: 139.7208,
   },
   {
     id: "b11",
@@ -2243,6 +2479,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-2-5 ファインズ西五反田1F",
     openingHours: "火〜土 19:00〜翌3:00 / 日月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13118548/",
+    lat: 35.6199,
+    lng: 139.7225,
   },
   {
     id: "b12",
@@ -2261,6 +2499,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-14-3",
     openingHours: "月〜土 18:00〜翌2:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13153648/",
+    lat: 35.6263,
+    lng: 139.7217,
   },
   {
     id: "b13",
@@ -2279,6 +2519,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-12-1",
     openingHours: "月〜日 17:00〜翌2:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13300987/",
+    lat: 35.6271,
+    lng: 139.724,
   },
   {
     id: "b14",
@@ -2298,6 +2540,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-20-3",
     openingHours: "月〜土 18:00〜翌1:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13252184/",
+    lat: 35.6267,
+    lng: 139.7213,
   },
   {
     id: "b15",
@@ -2317,6 +2561,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-22-8",
     openingHours: "月〜土 19:00〜翌3:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13100890/",
+    lat: 35.6269,
+    lng: 139.724,
   },
   {
     id: "b16",
@@ -2335,6 +2581,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-9-3",
     openingHours: "月〜土 19:00〜翌3:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13253056/",
+    lat: 35.6264,
+    lng: 139.7217,
   },
   {
     id: "b17",
@@ -2354,6 +2602,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-9-6",
     openingHours: "月〜日 20:00〜翌4:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13036379/",
+    lat: 35.6269,
+    lng: 139.7242,
   },
   {
     id: "b18",
@@ -2372,6 +2622,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-11-12",
     openingHours: "月〜土 18:00〜翌1:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13168215/",
+    lat: 35.6259,
+    lng: 139.7206,
   },
   {
     id: "b19",
@@ -2391,6 +2643,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-7-1 リビオ五反田プラグマGタワーB1F",
     openingHours: "毎日 19:00〜翌4:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13260184/",
+    lat: 35.6263,
+    lng: 139.7215,
   },
 
   // ===== ワインバー追加 =====
@@ -2411,6 +2665,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8 ドルミ五反田ドゥメゾン112",
     openingHours: "月火 17:00〜23:00 / 水定休 / 木〜日祝 11:30〜15:00 / 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13264012/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
   {
     id: "wa15",
@@ -2429,6 +2685,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-12 東洋ビル1F",
     openingHours: "月〜金 17:00〜23:00 / 土 17:00〜22:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13214720/",
+    lat: 35.626,
+    lng: 139.7206,
   },
 
   // ===== 和食追加 =====
@@ -2449,6 +2707,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-25-4 磯ビル1F",
     openingHours: "火〜日 17:00〜23:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13287304/",
+    lat: 35.6259,
+    lng: 139.7205,
   },
   {
     id: "wa02",
@@ -2468,6 +2728,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-11-8 大阪屋ビル1F",
     openingHours: "月〜土 11:30〜15:00（L.O.13:30）/ 17:00〜23:30（L.O.22:30）/ 日祝 11:30〜15:00 / 16:00〜23:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13257714/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "wa03",
@@ -2486,6 +2748,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-8 FPGリンクス五反田3F",
     openingHours: "月〜日 17:00〜23:00（L.O.フード22:00）/ 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13312806/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "wa04",
@@ -2504,6 +2768,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-9-3 リバーライトビル2F",
     openingHours: "月〜土 17:00〜23:30 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13252704/",
+    lat: 35.6264,
+    lng: 139.7217,
   },
   {
     id: "wa06",
@@ -2523,6 +2789,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-8 FPGリンクス五反田2F",
     openingHours: "月〜金・祝前日 14:00〜23:30 / 土日祝 12:00〜22:30 / 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13237480/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "wa10",
@@ -2542,6 +2810,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-28-12 EX五反田ビル1F",
     openingHours: "毎日 11:30〜翌4:30 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13147333/",
+    lat: 35.628,
+    lng: 139.7281,
   },
 
   // ===== 和食追加2 =====
@@ -2562,6 +2832,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-15-10",
     openingHours: "毎日 16:00〜翌0:00（L.O.23:30）/ 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13292186/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "wa09",
@@ -2580,6 +2852,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-14-11 Zekoレジデンス1F",
     openingHours: "月〜土 17:00〜翌1:00 / 日祝 17:00〜23:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13302560/",
+    lat: 35.6256,
+    lng: 139.7209,
   },
   {
     id: "wa11",
@@ -2598,6 +2872,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-32-4 東京モリスビル1F",
     openingHours: "毎日 17:00〜翌0:00（L.O.フード23:00・ドリンク23:30）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13318679/",
+    lat: 35.6266,
+    lng: 139.7215,
   },
   {
     id: "wa12",
@@ -2616,6 +2892,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-28-10 FP五反田ビル1F",
     openingHours: "毎日 17:00〜23:00（最終入店21:30）/ 年末年始のみ休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13219515/",
+    lat: 35.6256,
+    lng: 139.7208,
   },
   {
     id: "wa13",
@@ -2634,6 +2912,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-4-10 山口ビル1F",
     openingHours: "月〜土 17:00〜23:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13211825/",
+    lat: 35.6271,
+    lng: 139.7242,
   },
   {
     id: "wa14",
@@ -2652,6 +2932,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-17-1 第二東栄ビル3F",
     openingHours: "毎日 16:00〜23:00（L.O.22:00）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13307200/",
+    lat: 35.6265,
+    lng: 139.7215,
   },
   {
     id: "wa16",
@@ -2670,6 +2952,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-16-10 光美ビル1F",
     openingHours: "月〜木・日・祝 16:30〜翌0:00 / 金土 16:30〜翌3:00 / 年末年始休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13250277/",
+    lat: 35.6269,
+    lng: 139.7239,
   },
   {
     id: "wa17",
@@ -2689,6 +2973,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田7-16-3 加藤ビル1F",
     openingHours: "月〜金 11:00〜14:30 / 17:30〜翌3:00 / 土日祝 11:00〜14:00 / 17:00〜翌3:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13046127/",
+    lat: 35.6207,
+    lng: 139.7214,
   },
   {
     id: "wa18",
@@ -2708,6 +2994,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-18-1 Gotanda ex 6F",
     openingHours: "月〜金 11:30〜14:00 / 17:00〜23:00 / 土日祝 11:30〜14:00 / 16:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13306016/",
+    lat: 35.6266,
+    lng: 139.7216,
   },
   {
     id: "wa19",
@@ -2726,6 +3014,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-3 デュロス五反田1F",
     openingHours: "月〜木・土 17:30〜翌0:00 / 金 17:30〜翌2:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13089858/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "wa20",
@@ -2745,6 +3035,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-11-5 バルミー五反田2F",
     openingHours: "毎日 18:00〜朝方まで / 年末年始のみ休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13283092/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "wa21",
@@ -2763,6 +3055,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-16-1 菅原ビル2F",
     openingHours: "月〜土 17:00〜23:30 / 日祝 17:00〜22:30 / 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13037828/",
+    lat: 35.6264,
+    lng: 139.7214,
   },
   {
     id: "wa22",
@@ -2782,6 +3076,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-30-6 モリカワビル1F",
     openingHours: "月〜金・祝 11:30〜14:00 / 17:00〜23:00 / 土日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13317137/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "wa23",
@@ -2800,6 +3096,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-20-9 2F",
     openingHours: "火〜日・祝 17:30〜23:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13309296/",
+    lat: 35.6272,
+    lng: 139.7238,
   },
   {
     id: "wa24",
@@ -2818,6 +3116,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-20-9 1F",
     openingHours: "火〜日・祝 17:30〜23:00 / 月定休（不定休あり）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13232557/",
+    lat: 35.6272,
+    lng: 139.7238,
   },
   {
     id: "wa25",
@@ -2836,6 +3136,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8 ドルミ五反田ドゥメゾン1F",
     openingHours: "月〜土・祝前後 17:00〜22:00（L.O.21:30）/ 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13292436/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
   {
     id: "wa26",
@@ -2854,6 +3156,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-25-1 KANOビルB1F",
     openingHours: "月〜土 17:00〜23:00（L.O.22:00）/ 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13305076/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "wa27",
@@ -2872,6 +3176,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-8 FPGリンクス五反田6F",
     openingHours: "月〜木・日・祝 16:00〜23:00（L.O.22:00）/ 金土・祝前 17:00〜翌0:00（L.O.23:00）/ 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13237389/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "wa28",
@@ -2890,6 +3196,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-12-9 イルヴィアーレ五反田ビル2F",
     openingHours: "月〜金 18:00〜21:30（L.O.21:00）/ 土日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13034775/",
+    lat: 35.6271,
+    lng: 139.724,
   },
   {
     id: "wa29",
@@ -2909,6 +3217,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-11-5 1F",
     openingHours: "月〜金 11:30〜14:30 / 17:00〜翌0:00 / 土 17:00〜翌0:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13151025/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "wa30",
@@ -2927,6 +3237,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-5-2 トラヤビル8F",
     openingHours: "毎日 16:00〜23:00（L.O.22:30）/ 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13174612/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "wa31",
@@ -2946,6 +3258,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-7-8 誠実ビル7F",
     openingHours: "月〜金 11:00〜14:30 / 16:30〜翌0:00 / 土日祝 16:30〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13310311/",
+    lat: 35.6256,
+    lng: 139.7207,
   },
   {
     id: "wa32",
@@ -2966,6 +3280,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-3-10 明河ビル1F",
     openingHours: "月〜金 11:30〜15:00 / 17:00〜翌0:00 / 土日祝 12:00〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13281997/",
+    lat: 35.627,
+    lng: 139.7241,
   },
   {
     id: "wa33",
@@ -2985,6 +3301,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-3-3 ニューロワールビルB1F",
     openingHours: "月〜金 11:45〜14:00 / 17:30〜22:00 / 土 17:30〜21:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13210088/",
+    lat: 35.6265,
+    lng: 139.7216,
   },
   {
     id: "wa35",
@@ -3003,6 +3321,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-16-3",
     openingHours: "月〜金 17:30〜22:30（L.O.21:30）/ 土日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13157868/",
+    lat: 35.6269,
+    lng: 139.7239,
   },
 
   // ===== 洋食追加 =====
@@ -3023,6 +3343,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-15 栄華ビル2F",
     openingHours: "火〜日 17:00〜23:00 / 土日 11:30〜15:00（ランチ）/ 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13299887/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "yo02",
@@ -3041,6 +3363,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-9",
     openingHours: "月〜土 11:00〜14:00 / 17:00〜20:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13001552/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "yo03",
@@ -3059,6 +3383,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-24-1",
     openingHours: "月〜金 11:00〜16:00 / 17:30〜22:00 / 土日 11:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13293333/",
+    lat: 35.6265,
+    lng: 139.7217,
   },
   {
     id: "yo04",
@@ -3077,6 +3403,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-13 五反田JPビルディング1F",
     openingHours: "毎日 11:00〜21:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13296643/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "yo05",
@@ -3095,6 +3423,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-26-9",
     openingHours: "月〜金 11:30〜13:30 / 18:00〜翌0:00 / 土 11:30〜13:30 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13059534/",
+    lat: 35.6266,
+    lng: 139.7214,
   },
   {
     id: "yo06",
@@ -3113,6 +3443,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8 ドルミ五反田ドゥメゾン1F",
     openingHours: "ランチ 12:00〜14:00 / ディナー 17:30〜21:00 / 日祝・第1第3月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13274443/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
   {
     id: "yo07",
@@ -3131,6 +3463,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-10-8 ドルミ五反田ドゥメゾン1F",
     openingHours: "月〜金 11:30〜14:30 / 17:00〜20:00 / 土日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13089014/",
+    lat: 35.6258,
+    lng: 139.7205,
   },
 
   // ===== その他追加 =====
@@ -3151,6 +3485,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-15-5 第5本宮ビル2F",
     openingHours: "毎日 12:00〜22:00（ランチ12:00〜14:00）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13036319/",
+    lat: 35.6269,
+    lng: 139.7238,
   },
   {
     id: "ot02",
@@ -3169,6 +3505,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-30-2 ウイン五反田B1F",
     openingHours: "月〜金・祝前日 11:30〜14:30 / 17:00〜22:30 / 土日祝 11:30〜15:00 / 16:00〜22:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13214271/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "ot03",
@@ -3187,6 +3525,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-30-2 ウィン五反田ビル1F",
     openingHours: "毎日 17:00〜翌5:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13315210/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "ot04",
@@ -3205,6 +3545,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-16-4 五反田味ビル1F",
     openingHours: "毎日 18:00〜翌5:00（L.O. 料理4:00 / ドリンク4:30）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13309925/",
+    lat: 35.6269,
+    lng: 139.7239,
   },
   {
     id: "ot05",
@@ -3223,6 +3565,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-13 五反田JPビルディング1F",
     openingHours: "毎日 11:00〜23:00（L.O. 22:30）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13296642/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
 
   // ===== 東五反田（20件） =====
@@ -3243,6 +3587,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-27-2 メインステージ五反田駅前B1F",
     openingHours: "月〜金 11:30〜14:30 / 17:00〜22:30 / 土 17:00〜22:30 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13052373/",
+    lat: 35.6284,
+    lng: 139.728,
   },
   {
     id: "e02",
@@ -3261,6 +3607,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-21-6 池田山コープ1F",
     openingHours: "月〜土 11:30〜15:00 / 17:30〜22:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13095623/",
+    lat: 35.628,
+    lng: 139.7279,
   },
   {
     id: "e03",
@@ -3280,6 +3628,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-11-5",
     openingHours: "月〜金 11:30〜14:00 / 17:30〜翌0:00 / 土日祝 17:30〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13174181/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "e04",
@@ -3298,6 +3648,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-21-6 池田山コープ1F",
     openingHours: "月〜金 11:30〜14:30 / 17:30〜22:00 / 土 11:30〜14:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13215168/",
+    lat: 35.628,
+    lng: 139.7279,
   },
   {
     id: "e05",
@@ -3316,6 +3668,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-15-10",
     openingHours: "月〜土・祝前日 17:00〜翌4:30 / 日・祝 17:00〜23:00 / 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13228590/",
+    lat: 35.6269,
+    lng: 139.7238,
   },
   {
     id: "e07",
@@ -3334,6 +3688,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田3-15-19",
     openingHours: "火〜日 12:00〜15:00 / 18:00〜23:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13001566/",
+    lat: 35.6284,
+    lng: 139.7263,
   },
   {
     id: "e08",
@@ -3352,6 +3708,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-1-1 JR五反田駅高架下",
     openingHours: "月〜木 11:00〜翌1:00 / 金土 11:00〜翌4:00 / 日祝 11:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13285988/",
+    lat: 35.6277,
+    lng: 139.7251,
   },
   {
     id: "e09",
@@ -3370,6 +3728,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-26-6",
     openingHours: "月〜日 11:00〜翌2:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13260380/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "e10",
@@ -3388,6 +3748,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-12-9 イルヴァーレ五反田ビル1F",
     openingHours: "月〜日 11:30〜翌4:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13024239/",
+    lat: 35.6271,
+    lng: 139.724,
   },
   {
     id: "e11",
@@ -3406,6 +3768,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-9",
     openingHours: "月〜金 11:30〜14:00 / 17:00〜23:00 / 土 17:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13282192/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "e12",
@@ -3424,6 +3788,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-15-5 第5宮本ビル1F",
     openingHours: "月〜日 11:00〜23:00（L.O.22:30）/ 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13263126/",
+    lat: 35.6269,
+    lng: 139.7238,
   },
   {
     id: "e13",
@@ -3443,6 +3809,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-28-12 ワタナベボクシングビルB1F",
     openingHours: "月〜土 11:00〜15:00 / 17:00〜翌0:00 / 日 17:00〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13067035/",
+    lat: 35.628,
+    lng: 139.7281,
   },
   {
     id: "e14",
@@ -3461,6 +3829,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-13-3 加藤ビル4F",
     openingHours: "月〜木 11:30〜翌0:30 / 金 11:30〜翌1:00 / 土 17:00〜翌1:00 / 日 13:00〜22:00 / 祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13259762/",
+    lat: 35.6272,
+    lng: 139.7241,
   },
   {
     id: "e15",
@@ -3480,6 +3850,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-8-5 KNビル1F",
     openingHours: "月〜金 11:00〜15:00 / 17:00〜22:00 / 土 11:00〜15:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13213030/",
+    lat: 35.6277,
+    lng: 139.7253,
   },
   {
     id: "e16",
@@ -3498,6 +3870,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-2-2 松楽ビルB1F",
     openingHours: "火〜日 15:00〜23:00（L.O.22:15）/ 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13020162/",
+    lat: 35.6277,
+    lng: 139.7252,
   },
   {
     id: "e17",
@@ -3516,6 +3890,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-6-3",
     openingHours: "月〜金 17:00〜翌0:00 / 土日 16:00〜翌0:00 / 年中無休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13301265/",
+    lat: 35.6272,
+    lng: 139.7239,
   },
   {
     id: "e18",
@@ -3534,6 +3910,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-4-2",
     openingHours: "月 11:30〜14:30 / 17:00〜23:00 / 火〜金 11:30〜14:30 / 17:00〜翌0:00 / 土 17:00〜23:00 / 日祝 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13012679/",
+    lat: 35.6266,
+    lng: 139.7217,
   },
   {
     id: "e19",
@@ -3552,6 +3930,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-13 五反田JPビルディング1F",
     openingHours: "火〜土 11:00〜20:00 / 日月祝 11:00〜18:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13305964/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "e20",
@@ -3571,6 +3951,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-10-18",
     openingHours: "月〜日 8:00〜19:00 / 年末年始休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13192503/",
+    lat: 35.6282,
+    lng: 139.7278,
   },
 
   // ===== 西五反田 イタリアン追加 =====
@@ -3591,6 +3973,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-3 東洋ビル1F",
     openingHours: "月〜金 17:00〜23:00 / 土日祝 15:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13203375/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "it17",
@@ -3611,6 +3995,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-2-8 FPGlinksGOTANDA 5F",
     openingHours: "月〜金・日・祝 11:30〜23:00 / 土 11:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13321033/",
+    lat: 35.6264,
+    lng: 139.7215,
   },
   {
     id: "it18",
@@ -3629,6 +4015,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-15-10",
     openingHours: "月〜金 17:00〜23:00 / 土日祝 15:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13304617/",
+    lat: 35.6264,
+    lng: 139.7213,
   },
   {
     id: "it19",
@@ -3647,6 +4035,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-16-1 菅原ビル4F",
     openingHours: "火〜土・祝 18:00〜23:00 / 月・日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13131507/",
+    lat: 35.6264,
+    lng: 139.7214,
   },
   {
     id: "it20",
@@ -3666,6 +4056,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-7-11 M Crest 1F",
     openingHours: "毎日 17:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13319659/",
+    lat: 35.6256,
+    lng: 139.7207,
   },
   {
     id: "it21",
@@ -3685,6 +4077,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田7-7-2 エスティメゾン五反田1F",
     openingHours: "ランチ 11:30〜15:00 / ディナー 18:00〜23:00 / 月定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13231949/",
+    lat: 35.6206,
+    lng: 139.7215,
   },
   {
     id: "it22",
@@ -3704,6 +4098,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-24-7 シティコープ西五反田102",
     openingHours: "月〜金 17:00〜23:30 / 土日祝 15:00〜23:30 / 不定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13295547/",
+    lat: 35.6258,
+    lng: 139.7209,
   },
   {
     id: "it23",
@@ -3723,6 +4119,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-18-3 グレイス五反田B1F",
     openingHours: "月〜土・祝 17:00〜23:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13300057/",
+    lat: 35.6259,
+    lng: 139.7208,
   },
   {
     id: "it24",
@@ -3742,6 +4140,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田8-4-13 五反田JPビルディング1F",
     openingHours: "毎日 11:00〜20:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13296570/",
+    lat: 35.6201,
+    lng: 139.7227,
   },
   {
     id: "it25",
@@ -3762,6 +4162,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田7-13-1 tocconnect 1F・2F",
     openingHours: "ランチ 11:30〜14:30 / ディナー 月〜金 18:00〜23:00、土日祝 16:00〜21:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13312696/",
+    lat: 35.621,
+    lng: 139.7216,
   },
 
   // ===== 西五反田 和食・居酒屋追加 =====
@@ -3782,6 +4184,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-6-2 東洋ビル1F",
     openingHours: "月〜金 17:00〜23:30 / 土日祝定休（祝日のある週は土曜営業）",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13014638/",
+    lat: 35.626,
+    lng: 139.7206,
   },
   {
     id: "w_iza02",
@@ -3800,6 +4204,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田1-25-7 内堀ビル",
     openingHours: "月〜土 17:00〜翌1:00 / 日祝 15:00〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13273157/",
+    lat: 35.6266,
+    lng: 139.7213,
   },
   {
     id: "w_iza03",
@@ -3818,6 +4224,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-26-4 IAビル2F",
     openingHours: "月〜土・祝前日 17:00〜23:30 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13281002/",
+    lat: 35.6259,
+    lng: 139.7206,
   },
   {
     id: "w_iza04",
@@ -3837,6 +4245,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-12-15 リーラハイタウン1F",
     openingHours: "月〜金 11:00〜15:00・17:00〜23:00 / 土日祝 12:00〜23:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13318684/",
+    lat: 35.6259,
+    lng: 139.7207,
   },
   {
     id: "w_iza05",
@@ -3855,6 +4265,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区西五反田2-17-8 1F",
     openingHours: "月〜土・祝 18:00〜翌0:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13228217/",
+    lat: 35.6258,
+    lng: 139.7207,
   },
 
   // ===== 東五反田 和食・居酒屋追加 =====
@@ -3876,6 +4288,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-3-4 ビックナインビル2F",
     openingHours: "月〜金 11:30〜翌0:00 / 土 16:00〜23:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13134266/",
+    lat: 35.6278,
+    lng: 139.7253,
   },
   {
     id: "e_iza02",
@@ -3894,6 +4308,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-2-16 富久屋ニッカ共同ビル1F",
     openingHours: "月〜木 17:00〜23:00 / 金 17:00〜翌0:00 / 土 16:00〜23:00 / 日祝 16:00〜22:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13306587/",
+    lat: 35.6277,
+    lng: 139.7252,
   },
   {
     id: "e_iza03",
@@ -3913,6 +4329,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-1-2 五反田東急スクエア8F",
     openingHours: "毎日 11:00〜22:30",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13309722/",
+    lat: 35.6277,
+    lng: 139.7251,
   },
   {
     id: "e_iza04",
@@ -3931,6 +4349,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-6-1",
     openingHours: "月〜土 18:00〜23:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13089430/",
+    lat: 35.6272,
+    lng: 139.7239,
   },
   {
     id: "e_iza05",
@@ -3949,6 +4369,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田1-11-7 三ッ星ビル2号館1F",
     openingHours: "月〜土 18:00〜23:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13133769/",
+    lat: 35.6271,
+    lng: 139.7239,
   },
   {
     id: "e_iza06",
@@ -3968,6 +4390,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-8-3 五反田ASビルB1F",
     openingHours: "月〜金 11:30〜14:00・17:00〜23:00 / 土祝 17:00〜22:00 / 日定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13094666/",
+    lat: 35.6277,
+    lng: 139.7253,
   },
   {
     id: "e_iza07",
@@ -3986,6 +4410,8 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田5-27-6 第一五反田ビルB1F",
     openingHours: "月〜土 17:30〜23:00 / 日祝定休",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13229732/",
+    lat: 35.6284,
+    lng: 139.728,
   },
   {
     id: "e_iza08",
@@ -4004,5 +4430,7 @@ export const restaurants: Restaurant[] = [
     address: "品川区東五反田2-2-15 富久屋ニッカビル2F",
     openingHours: "月〜木 17:00〜翌1:00 / 金土 17:00〜翌3:00 / 日 17:00〜翌0:00",
     tabelogUrl: "https://tabelog.com/tokyo/A1316/A131603/13172913/",
+    lat: 35.6277,
+    lng: 139.7252,
   },
 ];
