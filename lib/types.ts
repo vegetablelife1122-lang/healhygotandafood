@@ -53,6 +53,8 @@ export interface Restaurant {
   openingHours: string;
   imageUrl?: string;
   tabelogUrl?: string;
+  lat?: number;
+  lng?: number;
 }
 
 export interface Filters {

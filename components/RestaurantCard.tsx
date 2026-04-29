@@ -1,5 +1,5 @@
 import type { RankedRestaurant } from "@/lib/types";
-import { formatCalories, healthScoreLabel, getPeakHourWarnings } from "@/lib/utils";
+import { formatCalories, healthScoreLabel, getPeakHourWarnings, calcDistance, formatDistance } from "@/lib/utils";
 
 interface RestaurantCardProps {
   ranked: RankedRestaurant;
@@ -7,6 +7,7 @@ interface RestaurantCardProps {
   isSelected: boolean;
   isFavorite?: boolean;
   onToggleFavorite?: (id: string) => void;
+  userLocation?: { lat: number; lng: number } | null;
 }
 
 const HEALTH_TAG_COLORS: Record<string, string> = {
@@ -26,9 +27,17 @@ const VISIT_TYPE_COLORS: Record<string, string> = {
   "お酒メイン": "bg-red-100 text-red-700",
 };
 
-export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = false, onToggleFavorite }: RestaurantCardProps) {
+export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = false, onToggleFavorite, userLocation }: RestaurantCardProps) {
   const { restaurant, reason, isRelaxed } = ranked;
   const peakWarnings = getPeakHourWarnings(restaurant);
+  const distance = userLocation && restaurant.lat != null && restaurant.lng != null
+    ? calcDistance(userLocation.lat, userLocation.lng, restaurant.lat, restaurant.lng)
+    : null;
+  const mapsUrl = restaurant.lat != null && restaurant.lng != null
+    ? `https://www.google.com/maps/dir/?api=1&destination=${restaurant.lat},${restaurant.lng}`
+    : restaurant.address
+    ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(restaurant.address)}`
+    : null;
 
   return (
     <div
@@ -138,9 +147,26 @@ export default function RestaurantCard({ ranked, rank, isSelected, isFavorite = 
         </div>
       )}
 
-      {/* Address + Hours */}
+      {/* Address + Hours + Maps */}
       <div className="mb-1.5 text-xs text-gray-500 space-y-0.5">
-        <p>📍 {restaurant.address}</p>
+        <div className="flex items-start gap-1 flex-wrap">
+          <span>📍 {restaurant.address}</span>
+          {distance != null && (
+            <span className="px-1.5 py-0.5 bg-blue-50 text-blue-600 rounded-full text-xs font-medium whitespace-nowrap">
+              現在地から {formatDistance(distance)}
+            </span>
+          )}
+          {mapsUrl && (
+            <a
+              href={mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-1.5 py-0.5 bg-green-50 text-green-600 rounded-full text-xs font-medium whitespace-nowrap hover:bg-green-100 transition-colors"
+            >
+              Mapsで開く →
+            </a>
+          )}
+        </div>
         <p>🕐 {restaurant.openingHours}</p>
       </div>
 

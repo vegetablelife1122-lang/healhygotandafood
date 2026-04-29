@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import type { Filters, RankedRestaurant } from "@/lib/types";
 import { rankRestaurants } from "@/lib/scoring";
-import { pickRandomRestaurant } from "@/lib/utils";
+import { pickRandomRestaurant, calcDistance } from "@/lib/utils";
 import { restaurants } from "@/data/restaurants";
 import FilterForm from "@/components/FilterForm";
 import RestaurantCard from "@/components/RestaurantCard";
@@ -75,13 +75,47 @@ export default function HomePage() {
   const [hazureItem, setHazureItem] = useState(HAZURE_ITEMS[0]);
 
   const { favorites, toggle: toggleFavorite, isFavorite } = useFavorites();
+  const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [locationLoading, setLocationLoading] = useState(false);
+  const [locationError, setLocationError] = useState<string | null>(null);
 
   const resultsRef = useRef<HTMLDivElement>(null);
   const decisionRef = useRef<HTMLDivElement>(null);
 
-  const displayedResults = showFavoritesOnly
-    ? results.filter((r) => isFavorite(r.restaurant.id))
-    : results;
+  const handleGetLocation = () => {
+    if (!navigator.geolocation) {
+      setLocationError("このブラウザは位置情報に対応していません");
+      return;
+    }
+    setLocationLoading(true);
+    setLocationError(null);
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        setUserLocation({ lat: pos.coords.latitude, lng: pos.coords.longitude });
+        setLocationLoading(false);
+      },
+      () => {
+        setLocationError("位置情報の取得に失敗しました");
+        setLocationLoading(false);
+      }
+    );
+  };
+
+  const displayedResults = (() => {
+    const base = showFavoritesOnly
+      ? results.filter((r) => isFavorite(r.restaurant.id))
+      : results;
+    if (!userLocation) return base;
+    return [...base].sort((a, b) => {
+      const da = a.restaurant.lat != null && a.restaurant.lng != null
+        ? calcDistance(userLocation.lat, userLocation.lng, a.restaurant.lat, a.restaurant.lng)
+        : Infinity;
+      const db = b.restaurant.lat != null && b.restaurant.lng != null
+        ? calcDistance(userLocation.lat, userLocation.lng, b.restaurant.lat, b.restaurant.lng)
+        : Infinity;
+      return da - db;
+    });
+  })();
 
   const handleSubmit = () => {
     const ranked = rankRestaurants(restaurants, filters);
@@ -212,6 +246,27 @@ export default function HomePage() {
         {/* Filter form */}
         <section>
           <FilterForm filters={filters} onChange={setFilters} onSubmit={handleSubmit} />
+          {/* 現在地ボタン */}
+          <div className="mt-3 flex items-center gap-2">
+            <button
+              type="button"
+              onClick={handleGetLocation}
+              disabled={locationLoading}
+              className="flex items-center gap-1.5 px-3 py-1.5 bg-blue-50 border border-blue-200 text-blue-600 text-xs font-medium rounded-lg hover:bg-blue-100 transition-colors disabled:opacity-50"
+            >
+              {locationLoading ? "取得中..." : userLocation ? "📍 現在地取得済み" : "📍 現在地を使って距離順に並べる"}
+            </button>
+            {userLocation && (
+              <button
+                type="button"
+                onClick={() => setUserLocation(null)}
+                className="text-xs text-gray-400 hover:text-gray-600"
+              >
+                解除
+              </button>
+            )}
+            {locationError && <span className="text-xs text-red-500">{locationError}</span>}
+          </div>
         </section>
 
         {/* Results */}
@@ -261,6 +316,7 @@ export default function HomePage() {
                       isSelected={selected?.restaurant.id === ranked.restaurant.id}
                       isFavorite={isFavorite(ranked.restaurant.id)}
                       onToggleFavorite={toggleFavorite}
+                      userLocation={userLocation}
                     />
                   ))
                 )}
