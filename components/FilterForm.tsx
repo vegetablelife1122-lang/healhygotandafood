@@ -7,9 +7,10 @@ interface FilterFormProps {
   filters: Filters;
   onChange: (filters: Filters) => void;
   onSubmit: () => void;
+  userLocation?: { lat: number; lng: number } | null;
 }
 
-export default function FilterForm({ filters, onChange, onSubmit }: FilterFormProps) {
+export default function FilterForm({ filters, onChange, onSubmit, userLocation }: FilterFormProps) {
   const update = <K extends keyof Filters>(key: K, value: Filters[K]) => {
     onChange({ ...filters, [key]: value });
   };
@@ -152,6 +153,44 @@ export default function FilterForm({ filters, onChange, onSubmit }: FilterFormPr
           />
         )}
       </div>
+
+      {/* Distance filter — only when location is available */}
+      {userLocation && (
+        <div>
+          <label className="block text-sm font-semibold text-gray-700 mb-2">
+            現在地からの距離
+            {filters.maxDistance !== null ? (
+              <span className="ml-2 text-slate-700 font-bold">
+                {filters.maxDistance >= 1000 ? `${(filters.maxDistance / 1000).toFixed(1)}km` : `${filters.maxDistance}m`} 以内
+              </span>
+            ) : (
+              <span className="ml-2 text-gray-400 font-normal">未指定</span>
+            )}
+          </label>
+          <div className="flex items-center gap-3">
+            <span className="text-xs text-gray-400 whitespace-nowrap">100m</span>
+            <input
+              type="range"
+              min={100}
+              max={2000}
+              step={100}
+              value={filters.maxDistance ?? 2000}
+              onChange={(e) => update("maxDistance", Number(e.target.value))}
+              className="w-full accent-emerald-700"
+            />
+            <span className="text-xs text-gray-400 whitespace-nowrap">2km</span>
+          </div>
+          {filters.maxDistance !== null && (
+            <button
+              type="button"
+              onClick={() => update("maxDistance", null)}
+              className="mt-1 text-xs text-gray-400 hover:text-gray-600"
+            >
+              解除
+            </button>
+          )}
+        </div>
+      )}
 
       {/* Open now */}
       <div>

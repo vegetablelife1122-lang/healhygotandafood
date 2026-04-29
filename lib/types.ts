@@ -69,6 +69,7 @@ export interface Filters {
   preferVegetable: boolean;
   preferLowFried: boolean;
   openNow: boolean;
+  maxDistance: number | null;
 }
 
 export interface RankedRestaurant {

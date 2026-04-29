@@ -62,6 +62,7 @@ const DEFAULT_FILTERS: Filters = {
   preferVegetable: false,
   preferLowFried: false,
   openNow: false,
+  maxDistance: null,
 };
 
 export default function HomePage() {
@@ -102,9 +103,15 @@ export default function HomePage() {
   };
 
   const displayedResults = (() => {
-    const base = showFavoritesOnly
+    let base = showFavoritesOnly
       ? results.filter((r) => isFavorite(r.restaurant.id))
       : results;
+    if (userLocation && filters.maxDistance !== null) {
+      base = base.filter((r) => {
+        if (r.restaurant.lat == null || r.restaurant.lng == null) return true;
+        return calcDistance(userLocation.lat, userLocation.lng, r.restaurant.lat, r.restaurant.lng) <= filters.maxDistance!;
+      });
+    }
     if (!userLocation) return base;
     return [...base].sort((a, b) => {
       const da = a.restaurant.lat != null && a.restaurant.lng != null
@@ -245,7 +252,7 @@ export default function HomePage() {
       <div className="max-w-2xl mx-auto px-4 py-8 space-y-8">
         {/* Filter form */}
         <section>
-          <FilterForm filters={filters} onChange={setFilters} onSubmit={handleSubmit} />
+          <FilterForm filters={filters} onChange={setFilters} onSubmit={handleSubmit} userLocation={userLocation} />
           {/* 現在地ボタン */}
           <div className="mt-3 flex items-center gap-2">
             <button
